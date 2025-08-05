@@ -19,3 +19,4 @@ This Dockerfile uses two stages:
 - **Stage 2 (runtime)**: Uses a lightweight OpenJDK 17 Alpine image to run the generated `.jar` file.
 
 👉 This approach keeps the final image small and production-ready.
+
